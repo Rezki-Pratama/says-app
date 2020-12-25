@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "34512341499",
+    "project_id": "says-app",
+    "storage_bucket": "says-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34512341499:android:4dc8248c0469e1f570a35e",
+        "android_client_info": {
+          "package_name": "com.example.says_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34512341499-iss5b2afn7aptfgq0oe6e13pk0ktvo12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.says_app",
+            "certificate_hash": "5d4cd73d6659541b7bd5192f490ea24cd43ac64d"
+          }
+        },
+        {
+          "client_id": "34512341499-j5br46ku29i69b24u0dbfcqn60hbtc3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJJgnYDdy5vrHekLyR7b4TfpVq7a924Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34512341499-j5br46ku29i69b24u0dbfcqn60hbtc3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
