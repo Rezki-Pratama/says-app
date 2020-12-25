@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:says_app/presentation/screens/home_screen.dart';
 import 'package:says_app/presentation/utilities/style.dart';
 
 class SetProfilePage extends StatefulWidget {
@@ -57,7 +58,13 @@ class _SetProfilePageState extends State<SetProfilePage> {
                 alignment: Alignment.bottomCenter,
                 child: MaterialButton(
                   color: greenColor,
-                  onPressed: _submitProfileInfo,
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => HomeScreen(),
+                        ));
+                  },
                   child: Text(
                     "Next",
                     style: TextStyle(
@@ -87,9 +94,7 @@ class _SetProfilePageState extends State<SetProfilePage> {
                 borderRadius: BorderRadius.all(Radius.circular(25))),
             child: Icon(Icons.camera_alt),
           ),
-          SizedBox(
-            width: mediaQuery.width / 50
-          ),
+          SizedBox(width: mediaQuery.width / 50),
           Expanded(
             child: TextField(
               controller: _nameController,
@@ -98,9 +103,7 @@ class _SetProfilePageState extends State<SetProfilePage> {
               ),
             ),
           ),
-          SizedBox(
-            width: mediaQuery.width / 50
-          ),
+          SizedBox(width: mediaQuery.width / 50),
           Container(
             width: mediaQuery.width / 10,
             height: mediaQuery.height / 20,
